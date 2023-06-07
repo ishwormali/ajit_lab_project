@@ -1,6 +1,6 @@
 package de.haw.hamburg.sel.stisys;
 
-public class ResultPublisherSystem {
+public class ResultPublisherMainSystem {
     public static void main(String[] args){
 
         Observer student = new Student();
