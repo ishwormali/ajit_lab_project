@@ -17,12 +17,15 @@ public class PublishResult  {
     public List<ExamResult> getResults()
     {
         List<ExamResult> results = new ArrayList<ExamResult>();
-        results.add(new ExamResult(1, 3.5));
-        results.add(new ExamResult(2, 3.0));
-        results.add(new ExamResult(3, 3.0));
-        results.add(new ExamResult(4, 2.5));
-        results.add(new ExamResult(5, 2.0));
-        results.add(new ExamResult(6, 4.0));
+        results.add(new ExamResult(1, 3.5, 1));
+        results.add(new ExamResult(1, 3.0, 2));
+        results.add(new ExamResult(1, 4, 3));
+        results.add(new ExamResult(2, 3.0, 1));
+        results.add(new ExamResult(2, 3.5, 2));
+        results.add(new ExamResult(3, 3.0, 1));
+        results.add(new ExamResult(4, 2.5, 1));
+        results.add(new ExamResult(5, 2.0, 1));
+        results.add(new ExamResult(6, 4.0, 1));
         return results;
     }
 }
