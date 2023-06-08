@@ -20,7 +20,7 @@ public class PublishResult  {
         List<ExamResult> results = new ArrayList<ExamResult>();
         results.add(new ExamResult(1, 3.5, 1));
         results.add(new ExamResult(1, 3.0, 2));
-        results.add(new ExamResult(1, 4, 3));
+        results.add(new ExamResult(1, 4.0, 3));
         results.add(new ExamResult(2, 3.0, 1));
         results.add(new ExamResult(2, 3.5, 2));
         results.add(new ExamResult(3, 3.0, 1));
