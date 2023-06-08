@@ -3,6 +3,7 @@ package de.haw.hamburg.sel.stisys;
 import java.util.ArrayList;
 import java.util.List;
 
+// Publish result publisher
 public class PublishResult  {
     public void getStudentDetails()
     {
