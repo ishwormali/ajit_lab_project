@@ -21,28 +21,23 @@ public class FSB extends SystemUser {
     public void addCourses(List<Course> courses) {
     }
 
-    public void addLabs(List<Lab> labs)
-    {
+    public void addLabs(List<Lab> labs) {
 
     }
 
-    public void addExams(List<Exam> exams)
-    {
+    public void addExams(List<Exam> exams) {
 
     }
 
-    public void addLectures(List<Lecturer> lecturers)
-    {
+    public void addLectures(List<Lecturer> lecturers) {
 
     }
 
-    public void publishResult()
-    {
+    public void publishResult() {
 
     }
 
-    public void publishPVL()
-    {
-        
+    public void publishPVL() {
+
     }
 }

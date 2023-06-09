@@ -5,7 +5,6 @@ public class SystemUser implements User {
     String emailAddress;
     String password;
 
-    
     @Override
     public String getName() {
         return this.name;
@@ -23,6 +22,6 @@ public class SystemUser implements User {
 
     @Override
     public boolean createLogin() {
-       return true;
+        return true;
     }
 }

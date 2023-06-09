@@ -4,28 +4,23 @@ public class Lab {
     int labCourseId;
     int labName;
 
-    public void setLabName(int labName)
-    {
+    public void setLabName(int labName) {
         this.labName = labName;
     }
 
-    public int getLabName()
-    {
+    public int getLabName() {
         return this.labName;
     }
 
-    public void setLabCourseId(int labCourseId)
-    {
+    public void setLabCourseId(int labCourseId) {
         this.labCourseId = labCourseId;
     }
 
-    public int getLabCourseId()
-    {
+    public int getLabCourseId() {
         return this.labCourseId;
     }
 
-    public void showLabs()
-    {
-        
+    public void showLabs() {
+
     }
 }

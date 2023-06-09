@@ -6,39 +6,32 @@ public class Exam {
     int examId;
     Date examDate;
     String examName;
-    public void setExamName(String examName)
-    {
+
+    public void setExamName(String examName) {
         this.examName = examName;
     }
 
-    public String getExamName()
-    {
+    public String getExamName() {
         return this.examName;
     }
-    
-    public void setExamDate(Date examDate)
-    {
+
+    public void setExamDate(Date examDate) {
         this.examDate = examDate;
     }
 
-    public Date getExamDate()
-    {
+    public Date getExamDate() {
         return this.examDate;
     }
-    
 
-    public void setExamId(int examId)
-    {
+    public void setExamId(int examId) {
         this.examId = examId;
     }
 
-    public int getExamId()
-    {
+    public int getExamId() {
         return this.examId;
     }
 
-    public void showExamps()
-    {
+    public void showExamps() {
 
     }
 }
