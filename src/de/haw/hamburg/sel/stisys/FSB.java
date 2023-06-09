@@ -1,6 +1,5 @@
 package de.haw.hamburg.sel.stisys;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class FSB extends SystemUser {
