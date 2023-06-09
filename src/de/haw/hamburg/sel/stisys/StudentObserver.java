@@ -16,11 +16,11 @@ public class StudentObserver implements Observer, DisplayElement {
     {
         
         System.out.println("Result published for Student Observer" );
-        System.out.println("____________________________________________" );
-        System.out.println("Student Id\tGrade\t\tCourse" );
-        System.out.println("----------\t------------\t------------" );
-        System.out.println(this.currenResult.studentId + "  " +"\t\t" + this.currenResult.grade + "  " +"\t\t" + this.currenResult.courseId);
-        System.out.println("_____________________________________________\n\n" );
+        System.out.println("_____________________________________________________________" );
+        System.out.println("Student Id\tGrade\t\tCourse\t\tExam Id" );
+        System.out.println("----------\t------------\t--------------\t--------------" );
+        System.out.println(this.currenResult.studentId + "  " +"\t\t" + this.currenResult.grade + "  " +"\t\t" + this.currenResult.courseId + "  " +"\t\t" + this.currenResult.examId);
+        System.out.println("______________________________________________________________\n\n" );
     }
 
 }
