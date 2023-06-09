@@ -3,9 +3,10 @@ package de.haw.hamburg.sel.stisys;
 public class ResultPublisherMainSystem {
     public static void main(String[] args) 
     {
-        Observer student = new Student();
+        Observer student = new StudentObserver();
+        FSBObserver fsb = new FSBObserver();
+        
         Subject subject = new ResultData();
-        FSB fsb = new FSB();
         subject.register(student);
         subject.register(fsb);
         
