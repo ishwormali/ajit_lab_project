@@ -14,6 +14,7 @@ public class StudentObserver implements Observer, DisplayElement {
     @Override
     public void display() 
     {
+        
         System.out.println("Result published for Student Observer" );
         System.out.println("____________________________________________" );
         System.out.println("Student Id\tGrade\t\tCourse" );
